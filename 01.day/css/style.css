@@ -1,4 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    background: url(/assets/flower-7060129__340.jpg)no-repeat;
-    height: 1000px;
+    background: linear-gradient(to left bottom, #579489, #093f47) no-repeat;
+    position: relative;
+    min-height: 375px;
+    font-family: 'Arvo', serif;
+    
+}
+.keys {
+    margin: 250px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.key {
+    border: 2px solid #032227;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    text-align: center;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.key:hover {
+    border: 2px solid yellow;
+    color: yellow;
+}
+kbd {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+.sound {
+    font-size: 9px;
 }
