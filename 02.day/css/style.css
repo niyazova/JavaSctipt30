@@ -1,5 +1,5 @@
 html {
-    background: #018DED url(http:unsplash.it/1500/1000?image=881&blur=50);
+    background: #044169;
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -22,9 +22,9 @@ body {
     position: relative;
     padding: 2rem;
     box-shadow: 
-        0 0 0px 4px  rgba(0, 0, 0, 0.1);
-        inset: 0 0 0 3px #EFEFEF;
-        inset: 0 0 10px black,
+        0 0 0px 4px  rgba(0, 0, 0, 0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
         0 0 10px rgba(0,0,0,0.2);
 
 }
@@ -40,5 +40,9 @@ body {
     background: black;
     position: absolute;
     top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 
 }
