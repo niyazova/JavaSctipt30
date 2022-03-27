@@ -1,3 +1,39 @@
+:root {
+    --base: #ffc600;
+    --spacing: 15px;
+    --blur: 4px;
+}
+.hl {
+    color: var(--base);
+
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+
+ }
 body {
     text-align: center;
+}
+
+body {
+    background: #193549;
+    color: white;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+}
+.controls {
+    margin-bottom: 30px;
+}
+
+a {
+    color: var(--base);
+    text-decoration: none;
+}
+
+input {
+    width: 100px;
 }
