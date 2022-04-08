@@ -5,7 +5,7 @@
 body {
     background: linear-gradient(to left bottom, #579489, #093f47) no-repeat;
     position: relative;
-    min-height: 375px;
+    min-height: 100vh;
     font-family: 'Arvo', serif;
     
 }
@@ -24,7 +24,7 @@ body {
     padding: 7px 15px;
     cursor: pointer;
 }
-.key:hover {
+.key-active {
     border: 2px solid yellow;
     color: yellow;
 }
